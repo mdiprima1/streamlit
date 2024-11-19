@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Title of the app
-st.title("The Benefits of Compounding")
+#st.title("The Benefits of Compounding")
 
 # User inputs
 start_amount = st.number_input("Initial Investment Amount (USD):", min_value=0, value=10000, step=1000)
